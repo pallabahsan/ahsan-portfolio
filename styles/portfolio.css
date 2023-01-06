@@ -7,6 +7,7 @@
 .header {
     background: #fff8f3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-size: 900px;
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -53,10 +54,12 @@ nav li {
 .bannar {
     display: flex;
     align-items: center;
-    margin: 0px 200px;
+    margin: 0 200px;
+} 
+.bannar-title {
+    font-weight: 700;
+    font-size: 85px;
 }
-
-.bannar-title {}
 
 .bannar-sub-title {
     font-weight: 600;
@@ -64,7 +67,7 @@ nav li {
     margin-bottom: 20px;
 }
 
-.bannar.des {
+.bannar-des {
     color: black;
     font-size: 18px;
     margin-bottom: 30px;
@@ -115,4 +118,34 @@ color: #757575;;
 font-weight: 700;
 font-size: 20px;
 color: #474747;
+}
+/* what styles */
+.section{
+    margin-top: 130px;
+
+}
+/* skill */
+.skills-contant{
+        display: flex;
+        gap: 24px;
+}
+.skil{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.skill-des{
+color: #757575;
+}
+
+/* resume styles */
+.resume-contant{
+    display: flex;
 }
